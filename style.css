@@ -1,8 +1,40 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 </style>
+
+
 body {
-    font-family: Arimo;
+    font-family: 'Arimo', sans-serif;
     font-size: 20px;
     font-weight: 400;
+}
+
+.container {
+max-width: 1345px;
+padding: 0 20px;
+margin: 0 auto;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.header-heading {
+    margin-bottom: 36px;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.header-content p {
+    margin-bottom: 36px;
+    font-size: 20px;
+    font-weight: 400px;
+
 }
